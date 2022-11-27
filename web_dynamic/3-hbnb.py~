@@ -36,7 +36,7 @@ def hbnb():
         'places': places,
         'cache_id': uuid.uuid4()
     }
-    return render_template('2-hbnb.html', **var)
+    return render_template('0-hbnb.html', **var)
 
 
 if __name__ == "__main__":
